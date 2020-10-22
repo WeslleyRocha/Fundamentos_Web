@@ -1,0 +1,63 @@
+/* Estilo da página Index.HTML */
+
+.center
+{
+    text-align: center;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.menu li
+{
+     display: inline;
+     padding: 05px;
+     font-size: 20px;
+}
+
+.menu li a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a:hover
+{
+    color: #5F04B4
+}
+
+.padding
+{
+    padding: 10px;
+}
+
+
+.tamanhoSocial
+{
+    width: 30px;
+    height: 30px;
+}
+
+.mb50
+{
+    margin-bottom: 100px;
+}
+
+.corFonte
+{
+    color: #221a58;
+}
+
+/* Estilo da página Add Amiigos.HTML */
+
+
+.ml
+{
+    margin-left: 50px;
+}
