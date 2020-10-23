@@ -9,7 +9,7 @@
 
 
 </head>
-<body bgcolor="#a598fa">
+<body style="background-color:#c992d0;">
 
     <h1 class="center corFonte"> Plants vs. Zombies Garden Warfare </h1>
     <hr>
@@ -34,26 +34,32 @@
         <div>
 
             <form>
-                <label for="nome"> Nome:  </label><br>
-                <input type="nome" id="nome"> <br><br>
+                <label for="nome" class="label_AddAmigos">  Nome:  </label><br>
+                <input type="nome" id="nome" class="estilo" placeholder="Nome Sobrenome" onkeyup="validarNome()">
+                <div id="txt_nome"> </div> <br>
         
-        
-                <label for="nickename"> Nickename: </label><br>
-                <input type="text" id="Nickename"> <br><br>
+                <label for="nickename" class="label_AddAmigos"> Nickename: </label><br>
+                <input type="text" id="nickename" placeholder="Nickename"> <br><br>
                 
-                <label for="pFavorito"> Personagem Favorito: </label><br>
-                <input type="text"  id="pFavorito"> <br> <br>
+                <label for="email" class="label_AddAmigos"> E-Mail: </label><br>
+                <input type="email" id="email" placeholder="e-mail@PlantsVSZombies.com.br" onkeyup="valirdarEmail()"> 
+                <div id="txt_email"></div><br>
+
+                <label for="pFavorito" class="label_AddAmigos"> Personagem Favorito: </label><br>
+                <input type="text"  id="pFavorito" placeholder="Planta Carnivora"> <br> <br>
                 </b>
         
-                <label > Plataforma </label><br>
-                <input type="checkbox" id="Xbox" name="Plataforma" size="1"> <label for="Xbox">Xbox</label> <br>
-                <input type="checkbox" id="PlayStation" name="Plataforma" size="1"> <label for="PlayStation">PlayStation</label> <br>
-                <input type="checkbox" id="PC" name="Plataforma" size="1"> <label for="PC">PC</label> <br> <br>
-                
+                                
                 <label for="obs"> Obs: </label><br>
-                <textarea name="obs" id="obs" cols="40" rows="10"></textarea> <br> <br>
+                <textarea name="obs" id="obs" cols="40" rows="10" placeholder="Obs..."></textarea> <br> <br>
         
-                <button> Cadastrar </button>
+                <label class="label_AddAmigos"> Plataforma </label><br>
+                <input type="checkbox" id="xbox" name="plataforma" size="1"> <label for="xbox">Xbox</label> <br>
+                <input type="checkbox" id="playStation" name="plataforma" size="1"> <label for="playStation">PlayStation</label> <br>
+                <input type="checkbox" id="pc" name="plataforma" size="1"> <label for="pc">PC</label> <br> <br>
+
+
+                <button class="label_AddAmigos botao">  Cadastrar </button>
         
             </form>
 
@@ -68,7 +74,7 @@
         aria-hidden="false"
         tabindex="0"></iframe>
         
-        <p class="center"> AV.  Presidente Vargas, 633 / Campo Grande - RJ </p>
+        <p class="center label_AddAmigos"> AV.  Presidente Vargas, 633 / Campo Grande - RJ </p>
 
         </div>
             
@@ -76,8 +82,7 @@
     </div>
 
     <hr>
-    <footer>
-    
+    <footer>    
         <div class="mb50">
             <div class="center">
     
@@ -87,7 +92,7 @@
             
        
     
-                <p class="center">
+                <p class="center label_AddAmigos">
                     PopCap &copy
                 </p>
     
@@ -96,7 +101,7 @@
     
     </footer>
 
-    
+    <script src="assets/JS/script.js">  </script>
 
 </body>
 </html>
