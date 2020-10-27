@@ -1,2 +1,23 @@
 
 
+.carousel-inner
+{
+    height: 675px;
+    overflow: hidden;
+}
+
+.backgroundGardenWarfare2
+{
+    background: #def0fe;;
+
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.center
+{
+    text-align: center;
+}
